@@ -1,0 +1,18 @@
+# Исключаем базы и большие файлы
+chroma_db/
+*.bin
+*.sqlite3
+
+# Исключаем PDF и txt (можно хранить отдельно)
+pdfs/
+pdf_txts/
+*.pdf
+*.txt
+
+# Исключаем pycache
+__pycache__/
+
+# Исключаем .env (ключи)
+.env
+
+.csv
